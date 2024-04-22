@@ -1,0 +1,27 @@
+libraray(mass)
+print(str(survey)
+
+stu_data=data.frame(survey$Smoke,survey$exer)
+stu_data=table(survey$Smoke,survey$exer)
+print(stu_data)
+print(chisq.test(stu_data))
+
+
+library(mass)  # Correcting the library name
+
+# Assuming 'survey' is a data frame with columns 'Smoke' and 'exer'
+
+# Print the structure of the 'survey' data frame
+print(str(survey))
+
+# Create a contingency table
+stu_data <- table(survey$Smoke, survey$exer)
+
+# Print the contingency table
+print(stu_data)
+
+# Perform chi-squared test
+result <- chisq.test(stu_data)
+
+# Print the result
+print(result)
