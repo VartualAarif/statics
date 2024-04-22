@@ -1,0 +1,4 @@
+q.1
+head(mtcars)
+mtcars_aov=aov(mtcars$disp~ factor(mtcars$gear))
+summary(mtcars_aov)
