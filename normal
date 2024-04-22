@@ -1,0 +1,20 @@
+q.2
+x=seq(0,50,by=1)
+print(x)
+y=dbinom(x,50,0.5)
+png (file="dbinom.png")
+dev.off()
+
+q.3
+x=qbinom(0.25,51,0.5)
+sprintf("%s is the number of times head appears in 51 trial if probability is 0.25",x)
+
+normal distrinbution
+write a r code to plot a normal distributiom with random variable taking values between -10 to 10,mean =2.5& s.d=2
+x=seq (-10,10 ,by=0.1)
+y=dnorm (x,mean=2.5,s.d=2)
+png(file="pnorm Example.png")
+plot(x,y)
+dev.off()
+
+
