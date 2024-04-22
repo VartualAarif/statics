@@ -1,0 +1,16 @@
+q.1
+IQ.data=c(100,101,104,109,125,116,105,108,110)
+z.test (IQ.data,100,15)
+
+  q.2
+# Sample data
+iq.data1 <- c(100, 101, 104, 109, 125, 116, 105, 108, 110)
+iq.data2 <- c(100, 101, 104, 109, 125, 116, 105, 108, 110)
+
+# Perform z-test
+result <- t.test(iq.data1, iq.data2, var.equal = TRUE)
+
+# Print the result
+print(result)
+
+  
