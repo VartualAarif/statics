@@ -1,0 +1,23 @@
+q.1 A write r code to perform one sample test at =0.05
+
+  x=rnorm(100)
+t.test (x,mu=5)
+
+  q.2 B. two sample=0.05
+
+x=rnorm(100)
+t.test (x,mu=5)
+x=rnorm(100)
+y=rnorm(100)
+t.test(x,y)
+
+  q.3 c.write a r.code for the two sample test at alpha(symbol)=0.01
+
+# Sample data
+x <- c(1.8, 2.1, 2.0, 1.9, 2.2, 2.3, 2.4, 1.7, 1.9, 2.1)
+
+# Perform one-sample t-test
+result <- t.test(x, mu = 2, alternative = "greater", conf.level = 0.99)
+
+# Print the result
+print(result)
